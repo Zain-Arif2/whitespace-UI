@@ -1,0 +1,168 @@
+.footer-container {
+    background-color: #043873;
+    padding: 0px 32px;
+    color: white;
+}
+
+.upper-container {
+    padding: 140px 0px;
+    text-align: center;
+}
+
+.upper-container h1 {
+    font-size: 72px;
+}
+
+.upper-container p {
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.free {
+    margin-bottom: 40px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.brand-info h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.brand-info p {
+    font-size: 18px;
+    line-height: 1.5;
+    max-width: 300px;
+    margin-top: 15px;
+}
+
+.brand-info img {
+    width: 181px;
+    height: 34px;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: space-around;
+    gap: 120px;
+}
+
+.footer-links h3 {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.footer-links ul {
+    list-style: none;
+}
+
+.footer-links li {
+    font-size: 16px;
+    margin-bottom: 18px;
+    cursor: pointer;
+}
+
+.footer-links li:hover {
+    text-decoration: underline;
+}
+
+.cta {
+    width: 14%;
+    margin-bottom: 100px;
+}
+
+.cta h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.list {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 108px;
+}
+
+.cta p {
+    font-size: 18px;
+    margin: 23px 0;
+}
+
+.social-icons img {
+    width: 100%;
+}
+
+.footer-bottom {
+    list-style-type: none;
+    display: flex;
+    padding-bottom: 24px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media(max-width:830px) {
+    .upper-container {
+        text-align: left;
+    }
+
+    .upper-container h1 {
+        font-size: 54px;
+    }
+
+    .footer-content {
+        flex-direction: column;
+        gap: 80px;
+    }
+
+    .footer-links {
+        flex-direction: column;
+        gap: 80px;
+        text-align: center;
+    }
+
+    .cta {
+        margin-top: 100px;
+        width: 29%;
+    }
+
+    .footer-bottom {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+}
+
+@media(max-width:630px) {
+    .upper-container h1 {
+        font-size: 40px;
+    }
+}
+
+@media(max-width:365px) {
+    .list {
+        flex-direction: column;
+        gap: 25px;
+
+    }
+
+    .cta {
+        width: 100%;
+    }
+
+    .upper-container h1 {
+        font-size: 40px;
+    }
+
+    .app-icons img {
+        width: 100%;
+    }
+
+    .footer-container {
+        padding: 0 16px;
+    }
+}

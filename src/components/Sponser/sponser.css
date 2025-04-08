@@ -1,0 +1,104 @@
+.sponser-container {
+    padding: 140px 32px;
+}
+
+.sponser-container h1 {
+    font-size: 72px;
+    text-align: center;
+}
+
+.logos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.app-container {
+    background-color: #043873;
+    padding: 140px 32px;
+    color: white;
+    text-align: center;
+    display: flex;
+}
+
+.app h1 {
+    font-size: 72px;
+
+}
+.app{
+    margin-left: 100px;
+}
+.app p {
+    font-size: 18px;
+    margin-top: 24px;
+    line-height: 30px;
+}
+
+.btn-more {
+    margin-top: 60px;
+}
+
+.img-container img {
+    width: 100%;
+height: auto;
+}
+
+@media(min-width:1820px) {
+    .sponser-container {
+        padding: 140px 220px;
+    }
+    .app-container{
+        padding: 140px 220px;
+    }
+}
+
+@media(max-width:1152px) {
+    .sponser-container h1 {
+        font-size: 64px;
+    }
+    .app{
+        margin: 0;
+    }
+.app-container{
+    flex-direction: column;
+    gap: 100px;
+}
+    .app h1 {
+        font-size: 64px;
+
+    }
+}
+
+@media(max-width:868px) {
+    .sponser-container h1 {
+        font-size: 54px;
+    }
+
+    .app h1 {
+        font-size: 54px;
+
+    }
+
+    .logos {
+        flex-direction: column;
+        gap: 100px;
+    }
+
+}
+
+@media(max-width:320px) {
+    .sponser-container {
+        padding: 80px 16px;
+    }
+
+    .sponser-container h1 {
+        font-size: 36px;
+    }
+
+    .app h1 {
+        font-size: 36px;
+
+    }
+
+}
