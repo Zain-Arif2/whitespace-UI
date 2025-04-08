@@ -2,7 +2,6 @@ import React from "react";
 import Logo from "../Logo/logo";
 import './header.css'
 import Button from "../Button/Button";
-import Navbar from "../Navbar/Navbar";
 
 
 function Header() {
