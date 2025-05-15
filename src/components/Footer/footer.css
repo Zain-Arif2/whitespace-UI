@@ -116,17 +116,17 @@
 
     .footer-content {
         flex-direction: column;
-        gap: 80px;
+        gap: 40px;
     }
 
     .footer-links {
         flex-direction: column;
-        gap: 80px;
+        gap: 40px;
         text-align: center;
     }
 
     .cta {
-        margin-top: 100px;
+        margin-top: 30px;
         width: 29%;
     }
 
