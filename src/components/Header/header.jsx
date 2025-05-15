@@ -13,7 +13,7 @@ function Header() {
                         <Logo />
                     </div>
                     <div className="navbar">
-            
+                        <a href="/doing">this is my next page</a>
                     </div>
 
                     <div className="btn">

@@ -9,22 +9,25 @@ import Sponser from './components/Sponser/Sponser.jsx';
 import Testimonial from './components/Testimonial/Testimonial.jsx'
 import Footer from './components/Footer/Footer.jsx'
 
-
-
-
 function App() {
   return (
-<>
-<Landing />
-<Work />
-<Customize />
-<Price />
-<Data />
-<Sponser />
-<Testimonial />
-<Footer />
-</>
+    <>
+      <Landing />
+      <Work />
+      <Customize />
+      <Price />
+      <Data />
+      <Sponser />
+      <Testimonial />
+      <Footer />
+    </>
   );
 }
 
 export default App;
+
+
+
+
+
+
